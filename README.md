@@ -1,11 +1,7 @@
 # Background Temperature ($T_{bg}$) Estimation for LLMs
 This repository contains jupyter notebooks showing the estimation protocol described in the paper: [Introducing Background Temperature to Characterise Hidden Randomness in Large Language Models](https://openreview.net/forum?id=bz0he4bARF). 
 
-## Overview of the Protocol
-The repository implements a three-step pipeline to estimate $T_{bg}$. While the provided notebooks use specific models, datasets and metrics as a concrete example, the framework is fully extensible.
-1. **Reference Distribution Generation**: Collect outputs from locally run models over a fine-grained grid of temperatures.
-2. **System Under Test Collection**: Collect outputs from the target model (at zero temperature) for which we want to estimate $T_{bg}$. Three examples are provided, using the api of the models gpt-4.1-nano, claude-sonnet-4 and grok-3-mini, respectively through the providers Azure, AWS and Azure.
-3. **Estimation**: Compare variability metrics between the System Under Test and Reference distributions to find the equivalent background temperature.
+All the details about the protocol implemented in this repository and additional analysis can be found in the aforementioned paper.
 
 ## Repository Structure and Usage 
 The estimation workflow is divided into three sequential steps. While the notebooks use specific models (SmolLM, Llama, Mistral) and metrics as a concrete example of the paper's framework, the protocol is fully extensible to other models and datasets.
