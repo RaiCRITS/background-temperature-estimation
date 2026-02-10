@@ -24,10 +24,9 @@ If you use this repository or the $T_{bg}$ methodology, please cite:
 @article{
 anonymous2025introducing,
 title={Introducing Background Temperature to Characterise Hidden Randomness in Large Language Models},
-author={Anonymous},
+author={Alberto Messina and Stefano Scotta},
 journal={Accepted to Transactions on Machine Learning Research},
 year={2025},
 url={https://openreview.net/forum?id=bz0he4bARF},
-note={Under review}
 }
 ```
