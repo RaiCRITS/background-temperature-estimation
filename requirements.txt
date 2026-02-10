@@ -1,0 +1,11 @@
+transformers==4.56.1
+datasets==4.0.0
+numpy==1.26.4
+tqdm==4.67.1
+tiktoken==0.11.0
+torch==2.8.0
+editdistance==0.8.1
+scipy==1.12.0
+openai==2.15.0
+boto3==1.40.40
+botocore==1.40.40
