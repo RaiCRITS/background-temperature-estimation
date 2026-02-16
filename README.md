@@ -21,11 +21,14 @@ The estimation workflow is divided into three sequential steps. While the notebo
 ## Citation
 If you use this repository or the $T_{bg}$ methodology, please cite:
 ```
-@article{2026introducing,
+@article{
+messina2026introducing,
 title={Introducing Background Temperature to Characterise Hidden Randomness in Large Language Models},
 author={Alberto Messina and Stefano Scotta},
-journal={Accepted to Transactions on Machine Learning Research},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
 year={2026},
 url={https://openreview.net/forum?id=bz0he4bARF},
+note={}
 }
 ```
